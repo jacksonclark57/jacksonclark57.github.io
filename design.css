@@ -26,6 +26,17 @@ h1{
     line-height: 50px;
     font-weight: bold;
 }
+h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+}
+a{
+    color: #58b;
+}
+a:hover{
+    color: #369;
+}
 
 .hero{
    
@@ -48,7 +59,7 @@ h3 sub{
 .headshot{
     transition: transform 10s, box-shadow 1s;
     width: 300px;
-    height: 300px;
+    height: 350px;
     border-radius: 50%;
     overflow: hidden;
     margin-left: auto;
@@ -65,4 +76,15 @@ section{
     padding:50px 0;
     max-width: 800px;
     margin: 0 auto;
+}
+.list li{
+    display:inline;
+    font-weight: bold;
+
+}
+.list li:not(:last-child):after{
+    content:",";
+}
+.blocklist > li{
+    display: flex;
 }
