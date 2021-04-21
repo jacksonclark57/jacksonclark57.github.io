@@ -8,6 +8,9 @@
     text-decoration: inherit;
     line-height: inherit;
     color: inherit;
+    background-image:url("images/backgroundportfolio.png");
+    background-attachment:fixed;
+    
 }
 html,body{
     font-family: "Helvetica Neue", Helvetica,
@@ -85,6 +88,29 @@ section{
 .list li:not(:last-child):after{
     content:",";
 }
-.blocklist > li{
-    display: flex;
+.blocklist{
+    
+    outline: 1px solid red;
+}
+.prose{
+    text-align: justify;
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+.prose p{
+    margin: 20px auto;
+}
+.prose li{
+    list-style-position: inside;
+    list-style: square;
+    color: cadetblue;
+}
+#biohead{
+    text-align: center;
+}
+address{
+    white-space: pre-line;
+    font-style: normal;
+
 }

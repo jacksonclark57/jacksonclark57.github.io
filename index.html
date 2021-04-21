@@ -4,6 +4,10 @@
     <link rel="stylesheet" href="design.css"/>
 </head>
 <body>
+    <ul class="nav">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
     <section class = "hero">
         <header>
             <div class= "headshot">
@@ -18,24 +22,29 @@
         <h1>Cool Stuff I've Made</h1> 
     </header> 
 
-    <ul class="Blocklist">
+    <ul class="Blocklist"><!-- Start blocklist-->
         <li>
-            <img src="images/user guid snip 3.png" alt="Encoder snip">
-            <h2><a href="https://github.com/jacksonclark57/CIA-Encoder"id = stevelink> Click here More information on Minecraft </a></a></h2>
-            <p>This is the Encoder. It was a part of a two part project where
-                me and my class were individually tasked with finding a way to  
-                hide a secret message inside a image.
-                This is the application used for 
-                encoding a message to hide a text message and imbed it in the pixel data.
-            </p> 
-            <ul class="list">
-                <li>C#</li>
-                <li>Windows Forms</li>
-            </ul>
-       </li>
-       <li>
+            <section id = "projects"></section>
+                <img src="images/user guid snip 3.png" alt="Encoder snip">
+                <div>
+                    <h2><a href="https://github.com/jacksonclark57/CIA-Encoder"id = stevelink >Click here to see the Cia Encoder project </a></a></h2>
+                    <p>This is the Encoder. It was a part of a two part project where
+                    me and my class were individually tasked with finding a way to  
+                    hide a secret message inside a image.
+                    This is the application used for 
+                    encoding a message to hide a text message and imbed it in the pixel data.
+                    </p> 
+                    <ul class="list"><!--what language it uses-->
+                        <li>C#</li>
+                        <li>Windows Forms</li>
+                    </ul><!-- End-->
+                </div><!-- End Div-->
+            
+        </li>
+    <li><!-- 2ND blocklist entry-->
             <img src="images/user guide snip 2.png" alt="Decoder snip">  
-            <h2><a href="https://github.com/jacksonclark57/CIA-Decoder"id = stevelink> Click here to see the decoder portion. </a></a></h2>
+            <div>
+            <h2><a href="https://github.com/jacksonclark57/CIA-Decoder"id = stevelink> Click here to see the Decoder portion. </a></a></h2>
                 <p>This is the second part of the hidden message Encoder/Decoder.
                     This is the Decoder part where the hidden message is taken 
                     from the pixeldata and put into the message box.
@@ -44,9 +53,30 @@
             <li>C#</li>
             <li>Windows Forms</li>
         </ul>
+    </div>
+</li><!-- End blocklist-->
+<div class="prose">
+    <h1 id = "biohead">About Me</h1>
+    <p>Hi my name is Jackson Clark and i am a jr developer at the mississippi coding academy.
+        I am from Noxapater Mississippi and i have always had a passion for computers,technology and programming.
+    </p>
+    <h3>Work Experience</h3>
+    <ul>
+        <li> Moodys Furnature</li>
+        <li>Noxubee Wildlife Refuge</li>
+        <li>Camp of the Rising Son</li>
     </ul>
+    <p>Please go check out some of my past projects!</p>
+</div>
 </section>
-    <section>
+    <address>
+        Jackson Clark
+        Noxapater, MS 39346
+        662-736-4525
+        <a
+        href="mailto:JacksonClark1534@gmail.com">Shoot me a email at JacksonClark1534@gmail.com</a>
+    </address>
+    <section id = "contact">
         <h1> Github Portfolio</h1>
     </section>
 </body>
