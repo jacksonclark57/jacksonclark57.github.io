@@ -8,8 +8,7 @@
     text-decoration: inherit;
     line-height: inherit;
     color: inherit;
-    background-image:url("images/backgroundportfolio.png");
-    background-attachment:fixed;
+    
     
 }
 html,body{
@@ -19,6 +18,9 @@ html,body{
     line-height: 30px;
     color: #444;
     text-shadow: 1px 1px 0px #fff;
+    background-image:url("images/backgroundportfolio.png");
+    background-attachment:fixed;
+    
 
 }
 body{
@@ -113,4 +115,24 @@ address{
     white-space: pre-line;
     font-style: normal;
 
+}
+.nav{
+    width: 100%;
+    display: flex;
+
+}
+.nav li{
+    list-style-type: none;
+    flex-grow: 1;
+}
+.nav li a{
+    display: block;
+    line-height: 50px;
+    background-color: rgb(61, 59, 59);
+    color: honeydew;
+    text-shadow: 1px 1px 0px rgb(38, 83, 27);
+    transition: background-color 0.2s;
+}
+.nav li a:hover{
+    background-color: rgb(100, 99, 99);
 }
