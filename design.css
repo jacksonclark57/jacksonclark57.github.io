@@ -16,8 +16,8 @@ html,body{
     sans-serif;
     font-size: 18px;
     line-height: 30px;
-    color: #444;
-    text-shadow: 1px 1px 0px #fff;
+    color: rgb(236, 232, 232);
+    text-shadow: 1px 1px 0px rgb(126, 123, 123);
     background-image:url("images/backgroundportfolio.png");
     background-attachment:fixed;
     
